@@ -1,0 +1,257 @@
+[0.199s] Invoking command in '/home/matt/ros2_ws/build/ros2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matt/ros2_ws/install/rob599_hw3:/opt/ros/humble /usr/bin/cmake /home/matt/ros2_ws/src/ros2_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/matt/ros2_ws/install/ros2_msgs
+[0.326s] -- The C compiler identification is GNU 11.4.0
+[0.464s] -- The CXX compiler identification is GNU 11.4.0
+[0.484s] -- Detecting C compiler ABI info
+[0.647s] -- Detecting C compiler ABI info - done
+[0.668s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.669s] -- Detecting C compile features
+[0.670s] -- Detecting C compile features - done
+[0.678s] -- Detecting CXX compiler ABI info
+[0.867s] -- Detecting CXX compiler ABI info - done
+[0.888s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.890s] -- Detecting CXX compile features
+[0.891s] -- Detecting CXX compile features - done
+[0.897s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.306s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.471s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.541s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.552s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.568s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.683s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.724s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.241s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.908s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.970s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.974s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.043s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.044s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.044s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.044s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.103s] -- Found PythonExtra: .so  
+[4.221s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.276s] -- Added test 'lint_cmake' to check CMake code style
+[4.279s] -- Added test 'xmllint' to check XML markup files
+[4.288s] -- Configuring done
+[4.369s] -- Generating done
+[4.375s] -- Build files have been written to: /home/matt/ros2_ws/build/ros2_msgs
+[4.389s] Invoked command in '/home/matt/ros2_ws/build/ros2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matt/ros2_ws/install/rob599_hw3:/opt/ros/humble /usr/bin/cmake /home/matt/ros2_ws/src/ros2_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/matt/ros2_ws/install/ros2_msgs
+[4.394s] Invoking command in '/home/matt/ros2_ws/build/ros2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matt/ros2_ws/install/rob599_hw3:/opt/ros/humble /usr/bin/cmake --build /home/matt/ros2_ws/build/ros2_msgs -- -j24 -l24
+[4.489s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.513s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.533s] [  4%] Built target ament_cmake_python_symlink_ros2_msgs
+[5.195s] running egg_info
+[5.197s] creating ros2_msgs.egg-info
+[5.197s] writing ros2_msgs.egg-info/PKG-INFO
+[5.198s] writing dependency_links to ros2_msgs.egg-info/dependency_links.txt
+[5.198s] writing top-level names to ros2_msgs.egg-info/top_level.txt
+[5.199s] writing manifest file 'ros2_msgs.egg-info/SOURCES.txt'
+[5.204s] reading manifest file 'ros2_msgs.egg-info/SOURCES.txt'
+[5.205s] writing manifest file 'ros2_msgs.egg-info/SOURCES.txt'
+[5.264s] [  4%] Built target ament_cmake_python_build_ros2_msgs_egg
+[5.889s] [  8%] [32mBuilding C object CMakeFiles/ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros2_msgs/msg/detail/location_name__functions.c.o[0m
+[5.889s] [  8%] [32mBuilding C object CMakeFiles/ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros2_msgs/action/detail/nasa__functions.c.o[0m
+[5.893s] [ 10%] [32mBuilding C object CMakeFiles/ros2_msgs__rosidl_generator_c.dir/rosidl_generator_c/ros2_msgs/srv/detail/location__functions.c.o[0m
+[5.914s] [ 10%] Built target ros2_msgs__cpp
+[5.938s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.940s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.941s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.230s] [ 19%] [32m[1mLinking C shared library libros2_msgs__rosidl_generator_c.so[0m
+[6.324s] [ 19%] Built target ros2_msgs__rosidl_generator_c
+[6.349s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.357s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.358s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.850s] [ 27%] [32mBuilding CXX object CMakeFiles/ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_msgs/action/nasa__type_support.cpp.o[0m
+[6.857s] [ 29%] [32mBuilding CXX object CMakeFiles/ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_msgs/srv/location__type_support.cpp.o[0m
+[6.857s] [ 31%] [32mBuilding CXX object CMakeFiles/ros2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_msgs/msg/location_name__type_support.cpp.o[0m
+[7.017s] [ 34%] [32mBuilding CXX object CMakeFiles/ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_msgs/action/detail/nasa__type_support.cpp.o[0m
+[7.018s] [ 36%] [32mBuilding CXX object CMakeFiles/ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_msgs/msg/detail/location_name__type_support.cpp.o[0m
+[7.022s] [ 38%] [32mBuilding CXX object CMakeFiles/ros2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_msgs/srv/detail/location__type_support.cpp.o[0m
+[7.403s] [ 40%] [32mBuilding CXX object CMakeFiles/ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_msgs/msg/detail/dds_fastrtps/location_name__type_support.cpp.o[0m
+[7.404s] [ 42%] [32mBuilding CXX object CMakeFiles/ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_msgs/action/detail/dds_fastrtps/nasa__type_support.cpp.o[0m
+[7.405s] [ 44%] [32mBuilding CXX object CMakeFiles/ros2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_msgs/srv/detail/dds_fastrtps/location__type_support.cpp.o[0m
+[7.427s] [ 46%] [32mBuilding CXX object CMakeFiles/ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_msgs/srv/location__type_support.cpp.o[0m
+[7.429s] [ 48%] [32mBuilding CXX object CMakeFiles/ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_msgs/action/nasa__type_support.cpp.o[0m
+[7.432s] [ 51%] [32mBuilding CXX object CMakeFiles/ros2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_msgs/msg/location_name__type_support.cpp.o[0m
+[7.597s] [ 53%] [32m[1mLinking CXX shared library libros2_msgs__rosidl_typesupport_c.so[0m
+[7.705s] [ 55%] [32mBuilding CXX object CMakeFiles/ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_msgs/action/detail/nasa__type_support_c.cpp.o[0m
+[7.709s] [ 57%] [32mBuilding CXX object CMakeFiles/ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_msgs/srv/detail/location__type_support_c.cpp.o[0m
+[7.710s] [ 59%] [32mBuilding CXX object CMakeFiles/ros2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_msgs/msg/detail/location_name__type_support_c.cpp.o[0m
+[7.748s] [ 59%] Built target ros2_msgs__rosidl_typesupport_c
+[7.804s] [ 61%] [32mBuilding C object CMakeFiles/ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_msgs/action/detail/nasa__type_support.c.o[0m
+[7.807s] [ 63%] [32mBuilding C object CMakeFiles/ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_msgs/msg/detail/location_name__type_support.c.o[0m
+[7.809s] [ 65%] [32mBuilding C object CMakeFiles/ros2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_msgs/srv/detail/location__type_support.c.o[0m
+[7.983s] [ 68%] [32m[1mLinking C shared library libros2_msgs__rosidl_typesupport_introspection_c.so[0m
+[8.053s] [ 70%] [32m[1mLinking CXX shared library libros2_msgs__rosidl_typesupport_cpp.so[0m
+[8.098s] [ 70%] Built target ros2_msgs__rosidl_typesupport_introspection_c
+[8.175s] [ 70%] Built target ros2_msgs__rosidl_typesupport_cpp
+[8.807s] [ 72%] [32m[1mLinking CXX shared library libros2_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[8.959s] [ 74%] [32m[1mLinking CXX shared library libros2_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[9.010s] [ 74%] Built target ros2_msgs__rosidl_typesupport_fastrtps_c
+[9.161s] [ 74%] Built target ros2_msgs__rosidl_typesupport_introspection_cpp
+[9.209s] [ 76%] [32m[1mLinking CXX shared library libros2_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.416s] [ 76%] Built target ros2_msgs__rosidl_typesupport_fastrtps_cpp
+[9.469s] [ 76%] Built target ros2_msgs
+[9.521s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[11.867s] [ 78%] Built target ros2_msgs__py
+[11.922s] [ 80%] [32mBuilding C object CMakeFiles/ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/ros2_msgs/srv/_location_s.c.o[0m
+[11.923s] [ 82%] [32mBuilding C object CMakeFiles/ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/ros2_msgs/action/_nasa_s.c.o[0m
+[11.926s] [ 85%] [32mBuilding C object CMakeFiles/ros2_msgs__rosidl_generator_py.dir/rosidl_generator_py/ros2_msgs/msg/_location_name_s.c.o[0m
+[12.279s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/ros2_msgs/libros2_msgs__rosidl_generator_py.so[0m
+[12.386s] [ 87%] Built target ros2_msgs__rosidl_generator_py
+[12.436s] [ 89%] [32mBuilding C object CMakeFiles/ros2_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros2_msgs/_ros2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[12.437s] [ 91%] [32mBuilding C object CMakeFiles/ros2_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros2_msgs/_ros2_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[12.439s] [ 93%] [32mBuilding C object CMakeFiles/ros2_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros2_msgs/_ros2_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[12.762s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/ros2_msgs/ros2_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[12.771s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/ros2_msgs/ros2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[12.779s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ros2_msgs/ros2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[12.860s] [100%] Built target ros2_msgs__rosidl_typesupport_c__pyext
+[12.871s] [100%] Built target ros2_msgs__rosidl_typesupport_introspection_c__pyext
+[12.897s] [100%] Built target ros2_msgs__rosidl_typesupport_fastrtps_c__pyext
+[12.927s] Invoked command in '/home/matt/ros2_ws/build/ros2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matt/ros2_ws/install/rob599_hw3:/opt/ros/humble /usr/bin/cmake --build /home/matt/ros2_ws/build/ros2_msgs -- -j24 -l24
+[13.197s] Invoking command in '/home/matt/ros2_ws/build/ros2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matt/ros2_ws/install/rob599_hw3:/opt/ros/humble /usr/bin/cmake --install /home/matt/ros2_ws/build/ros2_msgs
+[13.218s] -- Install configuration: ""
+[13.220s] -- Execute custom install script
+[13.220s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/share/ament_index/resource_index/rosidl_interfaces/ros2_msgs
+[13.244s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/include/ros2_msgs/ros2_msgs/action/detail/nasa__functions.h
+[13.267s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/include/ros2_msgs/ros2_msgs/action/detail/nasa__struct.h
+[13.290s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/include/ros2_msgs/ros2_msgs/action/detail/nasa__type_support.h
+[13.313s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/include/ros2_msgs/ros2_msgs/action/nasa.h
+[13.335s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/include/ros2_msgs/ros2_msgs/msg/detail/location_name__functions.h
+[13.358s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/include/ros2_msgs/ros2_msgs/msg/detail/location_name__struct.h
+[13.379s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/include/ros2_msgs/ros2_msgs/msg/detail/location_name__type_support.h
+[13.401s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/include/ros2_msgs/ros2_msgs/msg/location_name.h
+[13.422s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/include/ros2_msgs/ros2_msgs/msg/rosidl_generator_c__visibility_control.h
+[13.443s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/include/ros2_msgs/ros2_msgs/srv/detail/location__functions.h
+[13.467s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/include/ros2_msgs/ros2_msgs/srv/detail/location__struct.h
+[13.488s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/include/ros2_msgs/ros2_msgs/srv/detail/location__type_support.h
+[13.511s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/include/ros2_msgs/ros2_msgs/srv/location.h
+[13.532s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/environment/library_path.sh
+[13.554s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/environment/library_path.dsv
+[13.575s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/include/ros2_msgs/ros2_msgs/action/detail/nasa__rosidl_typesupport_fastrtps_c.h
+[13.596s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/include/ros2_msgs/ros2_msgs/msg/detail/location_name__rosidl_typesupport_fastrtps_c.h
+[13.620s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/include/ros2_msgs/ros2_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[13.644s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/include/ros2_msgs/ros2_msgs/srv/detail/location__rosidl_typesupport_fastrtps_c.h
+[13.671s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/include/ros2_msgs/ros2_msgs/action/detail/nasa__rosidl_typesupport_introspection_c.h
+[13.693s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/include/ros2_msgs/ros2_msgs/msg/detail/location_name__rosidl_typesupport_introspection_c.h
+[13.715s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/include/ros2_msgs/ros2_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[13.737s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/include/ros2_msgs/ros2_msgs/srv/detail/location__rosidl_typesupport_introspection_c.h
+[13.761s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/include/ros2_msgs/ros2_msgs/action/detail/nasa__builder.hpp
+[13.784s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/include/ros2_msgs/ros2_msgs/action/detail/nasa__struct.hpp
+[13.807s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/include/ros2_msgs/ros2_msgs/action/detail/nasa__traits.hpp
+[13.828s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/include/ros2_msgs/ros2_msgs/action/nasa.hpp
+[13.850s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/include/ros2_msgs/ros2_msgs/msg/detail/location_name__builder.hpp
+[13.873s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/include/ros2_msgs/ros2_msgs/msg/detail/location_name__struct.hpp
+[13.894s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/include/ros2_msgs/ros2_msgs/msg/detail/location_name__traits.hpp
+[13.916s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/include/ros2_msgs/ros2_msgs/msg/location_name.hpp
+[13.939s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/include/ros2_msgs/ros2_msgs/srv/detail/location__builder.hpp
+[13.960s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/include/ros2_msgs/ros2_msgs/srv/detail/location__struct.hpp
+[13.982s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/include/ros2_msgs/ros2_msgs/srv/detail/location__traits.hpp
+[14.003s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/include/ros2_msgs/ros2_msgs/srv/location.hpp
+[14.031s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/include/ros2_msgs/ros2_msgs/action/detail/nasa__rosidl_typesupport_fastrtps_cpp.hpp
+[14.052s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/include/ros2_msgs/ros2_msgs/msg/detail/location_name__rosidl_typesupport_fastrtps_cpp.hpp
+[14.075s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/include/ros2_msgs/ros2_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[14.098s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/include/ros2_msgs/ros2_msgs/srv/detail/location__rosidl_typesupport_fastrtps_cpp.hpp
+[14.122s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/include/ros2_msgs/ros2_msgs/action/detail/nasa__rosidl_typesupport_introspection_cpp.hpp
+[14.145s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/include/ros2_msgs/ros2_msgs/msg/detail/location_name__rosidl_typesupport_introspection_cpp.hpp
+[14.168s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/include/ros2_msgs/ros2_msgs/srv/detail/location__rosidl_typesupport_introspection_cpp.hpp
+[14.190s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/environment/pythonpath.sh
+[14.213s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/environment/pythonpath.dsv
+[14.238s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/local/lib/python3.10/dist-packages/ros2_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[14.260s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/local/lib/python3.10/dist-packages/ros2_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[14.282s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/local/lib/python3.10/dist-packages/ros2_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[14.305s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/local/lib/python3.10/dist-packages/ros2_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[14.331s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/local/lib/python3.10/dist-packages/ros2_msgs/__init__.py
+[14.355s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/local/lib/python3.10/dist-packages/ros2_msgs/_ros2_msgs_s.ep.rosidl_typesupport_c.c
+[14.379s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/local/lib/python3.10/dist-packages/ros2_msgs/_ros2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[14.402s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/local/lib/python3.10/dist-packages/ros2_msgs/_ros2_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[14.425s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/local/lib/python3.10/dist-packages/ros2_msgs/action/__init__.py
+[14.448s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/local/lib/python3.10/dist-packages/ros2_msgs/action/_nasa.py
+[14.472s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/local/lib/python3.10/dist-packages/ros2_msgs/action/_nasa_s.c
+[14.495s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/local/lib/python3.10/dist-packages/ros2_msgs/libros2_msgs__rosidl_generator_py.so
+[14.520s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/local/lib/python3.10/dist-packages/ros2_msgs/msg/__init__.py
+[14.542s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/local/lib/python3.10/dist-packages/ros2_msgs/msg/_location_name.py
+[14.563s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/local/lib/python3.10/dist-packages/ros2_msgs/msg/_location_name_s.c
+[14.585s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/local/lib/python3.10/dist-packages/ros2_msgs/ros2_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[14.607s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/local/lib/python3.10/dist-packages/ros2_msgs/ros2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[14.628s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/local/lib/python3.10/dist-packages/ros2_msgs/ros2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[14.649s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/local/lib/python3.10/dist-packages/ros2_msgs/srv/__init__.py
+[14.673s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/local/lib/python3.10/dist-packages/ros2_msgs/srv/_location.py
+[14.696s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/local/lib/python3.10/dist-packages/ros2_msgs/srv/_location_s.c
+[14.718s] -- Up-to-date symlink: /home/matt/ros2_ws/install/ros2_msgs/local/lib/python3.10/dist-packages/ros2_msgs/ros2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[14.719s] -- Up-to-date symlink: /home/matt/ros2_ws/install/ros2_msgs/local/lib/python3.10/dist-packages/ros2_msgs/ros2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[14.720s] -- Up-to-date symlink: /home/matt/ros2_ws/install/ros2_msgs/local/lib/python3.10/dist-packages/ros2_msgs/ros2_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[14.721s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/action/Nasa.idl
+[14.745s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/srv/Location.idl
+[14.767s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/msg/LocationName.idl
+[14.789s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/action/Nasa.action
+[14.813s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/srv/Location.srv
+[14.835s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/srv/Location_Request.msg
+[14.856s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/srv/Location_Response.msg
+[14.877s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/msg/LocationName.msg
+[14.898s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/share/ament_index/resource_index/package_run_dependencies/ros2_msgs
+[14.919s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/share/ament_index/resource_index/parent_prefix_path/ros2_msgs
+[14.940s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/environment/ament_prefix_path.sh
+[14.961s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/environment/ament_prefix_path.dsv
+[14.982s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/environment/path.sh
+[15.004s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/environment/path.dsv
+[15.024s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/local_setup.bash
+[15.045s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/local_setup.sh
+[15.067s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/local_setup.zsh
+[15.088s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/local_setup.dsv
+[15.110s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/package.dsv
+[15.133s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/share/ament_index/resource_index/packages/ros2_msgs
+[15.155s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/cmake/rosidl_cmake-extras.cmake
+[15.177s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.198s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.222s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[15.243s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[15.264s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[15.286s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[15.307s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/cmake/ros2_msgsConfig.cmake
+[15.328s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/cmake/ros2_msgsConfig-version.cmake
+[15.349s] -- Symlinking: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/package.xml
+[15.373s] -- Installing: /home/matt/ros2_ws/install/ros2_msgs/lib/libros2_msgs__rosidl_generator_c.so
+[15.374s] -- Set runtime path of "/home/matt/ros2_ws/install/ros2_msgs/lib/libros2_msgs__rosidl_generator_c.so" to ""
+[15.374s] -- Installing: /home/matt/ros2_ws/install/ros2_msgs/lib/libros2_msgs__rosidl_typesupport_fastrtps_c.so
+[15.376s] -- Set runtime path of "/home/matt/ros2_ws/install/ros2_msgs/lib/libros2_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[15.376s] -- Installing: /home/matt/ros2_ws/install/ros2_msgs/lib/libros2_msgs__rosidl_typesupport_introspection_c.so
+[15.377s] -- Set runtime path of "/home/matt/ros2_ws/install/ros2_msgs/lib/libros2_msgs__rosidl_typesupport_introspection_c.so" to ""
+[15.377s] -- Installing: /home/matt/ros2_ws/install/ros2_msgs/lib/libros2_msgs__rosidl_typesupport_c.so
+[15.378s] -- Set runtime path of "/home/matt/ros2_ws/install/ros2_msgs/lib/libros2_msgs__rosidl_typesupport_c.so" to ""
+[15.379s] -- Installing: /home/matt/ros2_ws/install/ros2_msgs/lib/libros2_msgs__rosidl_typesupport_fastrtps_cpp.so
+[15.380s] -- Set runtime path of "/home/matt/ros2_ws/install/ros2_msgs/lib/libros2_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[15.380s] -- Installing: /home/matt/ros2_ws/install/ros2_msgs/lib/libros2_msgs__rosidl_typesupport_introspection_cpp.so
+[15.381s] -- Set runtime path of "/home/matt/ros2_ws/install/ros2_msgs/lib/libros2_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[15.382s] -- Installing: /home/matt/ros2_ws/install/ros2_msgs/lib/libros2_msgs__rosidl_typesupport_cpp.so
+[15.383s] -- Set runtime path of "/home/matt/ros2_ws/install/ros2_msgs/lib/libros2_msgs__rosidl_typesupport_cpp.so" to ""
+[15.496s] Listing '/home/matt/ros2_ws/install/ros2_msgs/local/lib/python3.10/dist-packages/ros2_msgs'...
+[15.496s] Compiling '/home/matt/ros2_ws/install/ros2_msgs/local/lib/python3.10/dist-packages/ros2_msgs/__init__.py'...
+[15.496s] Listing '/home/matt/ros2_ws/install/ros2_msgs/local/lib/python3.10/dist-packages/ros2_msgs/action'...
+[15.497s] Compiling '/home/matt/ros2_ws/install/ros2_msgs/local/lib/python3.10/dist-packages/ros2_msgs/action/__init__.py'...
+[15.497s] Compiling '/home/matt/ros2_ws/install/ros2_msgs/local/lib/python3.10/dist-packages/ros2_msgs/action/_nasa.py'...
+[15.497s] Listing '/home/matt/ros2_ws/install/ros2_msgs/local/lib/python3.10/dist-packages/ros2_msgs/msg'...
+[15.497s] Compiling '/home/matt/ros2_ws/install/ros2_msgs/local/lib/python3.10/dist-packages/ros2_msgs/msg/__init__.py'...
+[15.497s] Compiling '/home/matt/ros2_ws/install/ros2_msgs/local/lib/python3.10/dist-packages/ros2_msgs/msg/_location_name.py'...
+[15.498s] Listing '/home/matt/ros2_ws/install/ros2_msgs/local/lib/python3.10/dist-packages/ros2_msgs/srv'...
+[15.498s] Compiling '/home/matt/ros2_ws/install/ros2_msgs/local/lib/python3.10/dist-packages/ros2_msgs/srv/__init__.py'...
+[15.498s] Compiling '/home/matt/ros2_ws/install/ros2_msgs/local/lib/python3.10/dist-packages/ros2_msgs/srv/_location.py'...
+[15.509s] -- Installing: /home/matt/ros2_ws/install/ros2_msgs/lib/libros2_msgs__rosidl_generator_py.so
+[15.510s] -- Set runtime path of "/home/matt/ros2_ws/install/ros2_msgs/lib/libros2_msgs__rosidl_generator_py.so" to ""
+[15.511s] -- Installing: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/cmake/export_ros2_msgs__rosidl_generator_cExport.cmake
+[15.512s] -- Installing: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/cmake/export_ros2_msgs__rosidl_generator_cExport-noconfig.cmake
+[15.512s] -- Installing: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/cmake/export_ros2_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[15.513s] -- Installing: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/cmake/export_ros2_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[15.513s] -- Installing: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/cmake/ros2_msgs__rosidl_typesupport_introspection_cExport.cmake
+[15.514s] -- Installing: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/cmake/ros2_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[15.515s] -- Installing: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/cmake/ros2_msgs__rosidl_typesupport_cExport.cmake
+[15.515s] -- Installing: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/cmake/ros2_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[15.515s] -- Installing: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/cmake/export_ros2_msgs__rosidl_generator_cppExport.cmake
+[15.515s] -- Installing: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/cmake/export_ros2_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[15.515s] -- Installing: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/cmake/export_ros2_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[15.516s] -- Installing: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/cmake/ros2_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[15.516s] -- Installing: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/cmake/ros2_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[15.516s] -- Installing: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/cmake/ros2_msgs__rosidl_typesupport_cppExport.cmake
+[15.517s] -- Installing: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/cmake/ros2_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[15.517s] -- Installing: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/cmake/export_ros2_msgs__rosidl_generator_pyExport.cmake
+[15.518s] -- Installing: /home/matt/ros2_ws/install/ros2_msgs/share/ros2_msgs/cmake/export_ros2_msgs__rosidl_generator_pyExport-noconfig.cmake
+[15.525s] Invoked command in '/home/matt/ros2_ws/build/ros2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/matt/ros2_ws/install/rob599_hw3:/opt/ros/humble /usr/bin/cmake --install /home/matt/ros2_ws/build/ros2_msgs

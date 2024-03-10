@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ros2_msgs/srv/Load.srv
+// generated code does not contain a copyright notice
+
+
+module ros2_msgs {
+  module srv {
+    struct Load_Request {
+      string filename;
+    };
+    struct Load_Response {
+      boolean success;
+    };
+  };
+};

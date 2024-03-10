@@ -1,0 +1,17 @@
+[2.482s] Invoking command in '/home/matt/ros2_ws/build/rob599_hw3': CMAKE_PREFIX_PATH=/home/matt/ros2_ws/install/turtlebot3_gazebo:/home/matt/ros2_ws/install/turtlebot3_simulations:/home/matt/ros2_ws/install/turtlebot3_fake_node:/home/matt/ros-humble-ros1-bridge/install/ros1_bridge PYTHONPATH=/home/matt/ros2_ws/build/rob599_hw3/prefix_override:/home/matt/ros2_ws/install/rob599_hw3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/matt/ros2_ws/build/rob599_hw3/build --no-deps install_data
+[3.157s] running develop
+[3.549s] running egg_info
+[3.550s] writing rob599_hw3.egg-info/PKG-INFO
+[3.550s] writing dependency_links to rob599_hw3.egg-info/dependency_links.txt
+[3.550s] writing entry points to rob599_hw3.egg-info/entry_points.txt
+[3.550s] writing requirements to rob599_hw3.egg-info/requires.txt
+[3.551s] writing top-level names to rob599_hw3.egg-info/top_level.txt
+[3.555s] reading manifest file 'rob599_hw3.egg-info/SOURCES.txt'
+[3.556s] writing manifest file 'rob599_hw3.egg-info/SOURCES.txt'
+[3.560s] running build_ext
+[3.560s] Creating /home/matt/ros2_ws/install/rob599_hw3/lib/python3.10/site-packages/rob599-hw3.egg-link (link to .)
+[3.562s] Installing places script to /home/matt/ros2_ws/install/rob599_hw3/lib/rob599_hw3
+[3.562s] 
+[3.563s] Installed /home/matt/ros2_ws/build/rob599_hw3
+[3.563s] running install_data
+[3.630s] Invoked command in '/home/matt/ros2_ws/build/rob599_hw3' returned '0': CMAKE_PREFIX_PATH=/home/matt/ros2_ws/install/turtlebot3_gazebo:/home/matt/ros2_ws/install/turtlebot3_simulations:/home/matt/ros2_ws/install/turtlebot3_fake_node:/home/matt/ros-humble-ros1-bridge/install/ros1_bridge PYTHONPATH=/home/matt/ros2_ws/build/rob599_hw3/prefix_override:/home/matt/ros2_ws/install/rob599_hw3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/matt/ros2_ws/build/rob599_hw3/build --no-deps install_data

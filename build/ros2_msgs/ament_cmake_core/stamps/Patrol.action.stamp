@@ -1,0 +1,8 @@
+# Definition of the Patrol action
+string goal
+---
+# Result
+bool success
+string message
+---
+#string feedback

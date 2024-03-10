@@ -1,0 +1,26 @@
+[0.624s] Invoking command in '/home/matt/ros2_ws/src/rob599_hw3': CMAKE_PREFIX_PATH=/home/matt/ros2_ws/install/turtlebot3_gazebo:/home/matt/ros2_ws/install/turtlebot3_simulations:/home/matt/ros2_ws/install/turtlebot3_fake_node:/home/matt/ros2_ws/install/ros2_msgs:/home/matt/ros-humble-ros1-bridge/install/ros1_bridge PYTHONPATH=/home/matt/ros2_ws/build/rob599_hw3/prefix_override:/home/matt/ros2_ws/install/rob599_hw3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rob599_hw3 build --build-base /home/matt/ros2_ws/build/rob599_hw3/build install --record /home/matt/ros2_ws/build/rob599_hw3/install.log --single-version-externally-managed
+[0.778s] running egg_info
+[0.779s] writing ../../build/rob599_hw3/rob599_hw3.egg-info/PKG-INFO
+[0.779s] writing dependency_links to ../../build/rob599_hw3/rob599_hw3.egg-info/dependency_links.txt
+[0.779s] writing entry points to ../../build/rob599_hw3/rob599_hw3.egg-info/entry_points.txt
+[0.779s] writing requirements to ../../build/rob599_hw3/rob599_hw3.egg-info/requires.txt
+[0.779s] writing top-level names to ../../build/rob599_hw3/rob599_hw3.egg-info/top_level.txt
+[0.780s] reading manifest file '../../build/rob599_hw3/rob599_hw3.egg-info/SOURCES.txt'
+[0.784s] adding license file 'LICENSE'
+[0.784s] writing manifest file '../../build/rob599_hw3/rob599_hw3.egg-info/SOURCES.txt'
+[0.784s] running build
+[0.784s] running build_py
+[0.784s] copying rob599_hw3/places.py -> /home/matt/ros2_ws/build/rob599_hw3/build/lib/rob599_hw3
+[0.784s] running install
+[0.785s] running install_lib
+[0.785s] copying /home/matt/ros2_ws/build/rob599_hw3/build/lib/rob599_hw3/places.py -> /home/matt/ros2_ws/install/rob599_hw3/lib/python3.10/site-packages/rob599_hw3
+[0.785s] byte-compiling /home/matt/ros2_ws/install/rob599_hw3/lib/python3.10/site-packages/rob599_hw3/places.py to places.cpython-310.pyc
+[0.787s] running install_data
+[0.787s] copying launch/turtlebot3_nav_launch.py -> /home/matt/ros2_ws/install/rob599_hw3/share/rob599_hw3/launch
+[0.787s] running install_egg_info
+[0.788s] removing '/home/matt/ros2_ws/install/rob599_hw3/lib/python3.10/site-packages/rob599_hw3-0.0.0-py3.10.egg-info' (and everything under it)
+[0.788s] Copying ../../build/rob599_hw3/rob599_hw3.egg-info to /home/matt/ros2_ws/install/rob599_hw3/lib/python3.10/site-packages/rob599_hw3-0.0.0-py3.10.egg-info
+[0.789s] running install_scripts
+[0.803s] Installing places script to /home/matt/ros2_ws/install/rob599_hw3/lib/rob599_hw3
+[0.803s] writing list of installed files to '/home/matt/ros2_ws/build/rob599_hw3/install.log'
+[0.818s] Invoked command in '/home/matt/ros2_ws/src/rob599_hw3' returned '0': CMAKE_PREFIX_PATH=/home/matt/ros2_ws/install/turtlebot3_gazebo:/home/matt/ros2_ws/install/turtlebot3_simulations:/home/matt/ros2_ws/install/turtlebot3_fake_node:/home/matt/ros2_ws/install/ros2_msgs:/home/matt/ros-humble-ros1-bridge/install/ros1_bridge PYTHONPATH=/home/matt/ros2_ws/build/rob599_hw3/prefix_override:/home/matt/ros2_ws/install/rob599_hw3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rob599_hw3 build --build-base /home/matt/ros2_ws/build/rob599_hw3/build install --record /home/matt/ros2_ws/build/rob599_hw3/install.log --single-version-externally-managed

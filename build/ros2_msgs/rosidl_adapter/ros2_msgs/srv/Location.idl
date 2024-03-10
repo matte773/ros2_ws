@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ros2_msgs/srv/Location.srv
+// generated code does not contain a copyright notice
+
+
+module ros2_msgs {
+  module srv {
+    struct Location_Request {
+      string location_name;
+    };
+    struct Location_Response {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

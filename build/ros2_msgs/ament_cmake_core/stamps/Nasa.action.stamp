@@ -1,0 +1,8 @@
+# goal
+int64 number
+---
+# result
+string result
+---
+# feedback
+int64 progress

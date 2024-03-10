@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from ros2_msgs/action/Patrol.action
+// generated code does not contain a copyright notice
+
+
+module ros2_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "Definition of the Patrol action")
+    struct Patrol_Goal {
+      string goal;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct Patrol_Result {
+      boolean success;
+
+      string message;
+    };
+    @verbatim (language="comment", text=
+      "string feedback")
+    struct Patrol_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

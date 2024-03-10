@@ -1,0 +1,14 @@
+{
+  "package_name": "ros2_msgs",
+  "non_idl_tuples": [
+    "/home/matt/ros2_ws/src/ros2_msgs:action/Nasa.action",
+    "/home/matt/ros2_ws/src/ros2_msgs:action/GoTo.action",
+    "/home/matt/ros2_ws/src/ros2_msgs:action/Patrol.action",
+    "/home/matt/ros2_ws/src/ros2_msgs:srv/Location.srv",
+    "/home/matt/ros2_ws/src/ros2_msgs:srv/Clear.srv",
+    "/home/matt/ros2_ws/src/ros2_msgs:msg/LocationName.msg",
+    "/home/matt/ros2_ws/src/ros2_msgs:srv/Load.srv",
+    "/home/matt/ros2_ws/src/ros2_msgs:srv/Save.srv",
+    "/home/matt/ros2_ws/src/ros2_msgs:srv/KnockKnock.srv"
+  ]
+}

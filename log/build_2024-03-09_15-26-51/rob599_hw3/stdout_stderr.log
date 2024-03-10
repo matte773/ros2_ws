@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing rob599_hw3.egg-info/PKG-INFO
+writing dependency_links to rob599_hw3.egg-info/dependency_links.txt
+writing entry points to rob599_hw3.egg-info/entry_points.txt
+writing requirements to rob599_hw3.egg-info/requires.txt
+writing top-level names to rob599_hw3.egg-info/top_level.txt
+reading manifest file 'rob599_hw3.egg-info/SOURCES.txt'
+writing manifest file 'rob599_hw3.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/matt/ros2_ws/install/rob599_hw3/lib/python3.10/site-packages/rob599-hw3.egg-link (link to .)
+Installing go_to_client script to /home/matt/ros2_ws/install/rob599_hw3/lib/rob599_hw3
+Installing places script to /home/matt/ros2_ws/install/rob599_hw3/lib/rob599_hw3
+
+Installed /home/matt/ros2_ws/build/rob599_hw3
+running install_data

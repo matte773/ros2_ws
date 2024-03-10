@@ -1,0 +1,17 @@
+[0.563s] Invoking command in '/home/matt/ros2_ws/build/rob599_hw3': CMAKE_PREFIX_PATH=/home/matt/ros2_ws/install/turtlebot3_gazebo:/home/matt/ros2_ws/install/turtlebot3_simulations:/home/matt/ros2_ws/install/turtlebot3_fake_node:/home/matt/ros2_ws/install/ros2_msgs:/home/matt/ros-humble-ros1-bridge/install/ros1_bridge PYTHONPATH=/home/matt/ros2_ws/build/rob599_hw3/prefix_override:/home/matt/ros2_ws/install/rob599_hw3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/matt/ros2_ws/build/rob599_hw3/build --no-deps install_data
+[0.727s] running develop
+[0.819s] running egg_info
+[0.819s] writing rob599_hw3.egg-info/PKG-INFO
+[0.819s] writing dependency_links to rob599_hw3.egg-info/dependency_links.txt
+[0.819s] writing entry points to rob599_hw3.egg-info/entry_points.txt
+[0.819s] writing requirements to rob599_hw3.egg-info/requires.txt
+[0.819s] writing top-level names to rob599_hw3.egg-info/top_level.txt
+[0.820s] reading manifest file 'rob599_hw3.egg-info/SOURCES.txt'
+[0.821s] writing manifest file 'rob599_hw3.egg-info/SOURCES.txt'
+[0.822s] running build_ext
+[0.822s] Creating /home/matt/ros2_ws/install/rob599_hw3/lib/python3.10/site-packages/rob599-hw3.egg-link (link to .)
+[0.822s] Installing places script to /home/matt/ros2_ws/install/rob599_hw3/lib/rob599_hw3
+[0.822s] 
+[0.822s] Installed /home/matt/ros2_ws/build/rob599_hw3
+[0.822s] running install_data
+[0.839s] Invoked command in '/home/matt/ros2_ws/build/rob599_hw3' returned '0': CMAKE_PREFIX_PATH=/home/matt/ros2_ws/install/turtlebot3_gazebo:/home/matt/ros2_ws/install/turtlebot3_simulations:/home/matt/ros2_ws/install/turtlebot3_fake_node:/home/matt/ros2_ws/install/ros2_msgs:/home/matt/ros-humble-ros1-bridge/install/ros1_bridge PYTHONPATH=/home/matt/ros2_ws/build/rob599_hw3/prefix_override:/home/matt/ros2_ws/install/rob599_hw3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/matt/ros2_ws/build/rob599_hw3/build --no-deps install_data

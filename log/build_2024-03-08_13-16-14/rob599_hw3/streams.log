@@ -1,0 +1,18 @@
+[0.577s] Invoking command in '/home/matt/ros2_ws/build/rob599_hw3': CMAKE_PREFIX_PATH=/home/matt/ros2_ws/install/turtlebot3_gazebo:/home/matt/ros2_ws/install/ros2_msgs:/home/matt/ros2_ws/install/turtlebot3_simulations:/home/matt/ros2_ws/install/turtlebot3_fake_node:/home/matt/ros-humble-ros1-bridge/install/ros1_bridge LD_LIBRARY_PATH=/home/matt/ros2_ws/install/ros2_msgs/lib:/home/matt/ros-humble-ros1-bridge/install/ros1_bridge/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/matt/ros2_ws/build/rob599_hw3/prefix_override:/home/matt/ros2_ws/install/rob599_hw3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/matt/ros2_ws/build/rob599_hw3/build --no-deps install_data
+[0.752s] running develop
+[0.856s] running egg_info
+[0.856s] writing rob599_hw3.egg-info/PKG-INFO
+[0.856s] writing dependency_links to rob599_hw3.egg-info/dependency_links.txt
+[0.856s] writing entry points to rob599_hw3.egg-info/entry_points.txt
+[0.856s] writing requirements to rob599_hw3.egg-info/requires.txt
+[0.856s] writing top-level names to rob599_hw3.egg-info/top_level.txt
+[0.857s] reading manifest file 'rob599_hw3.egg-info/SOURCES.txt'
+[0.858s] writing manifest file 'rob599_hw3.egg-info/SOURCES.txt'
+[0.859s] running build_ext
+[0.859s] Creating /home/matt/ros2_ws/install/rob599_hw3/lib/python3.10/site-packages/rob599-hw3.egg-link (link to .)
+[0.859s] Installing go_to_client script to /home/matt/ros2_ws/install/rob599_hw3/lib/rob599_hw3
+[0.859s] Installing places script to /home/matt/ros2_ws/install/rob599_hw3/lib/rob599_hw3
+[0.859s] 
+[0.859s] Installed /home/matt/ros2_ws/build/rob599_hw3
+[0.859s] running install_data
+[0.877s] Invoked command in '/home/matt/ros2_ws/build/rob599_hw3' returned '0': CMAKE_PREFIX_PATH=/home/matt/ros2_ws/install/turtlebot3_gazebo:/home/matt/ros2_ws/install/ros2_msgs:/home/matt/ros2_ws/install/turtlebot3_simulations:/home/matt/ros2_ws/install/turtlebot3_fake_node:/home/matt/ros-humble-ros1-bridge/install/ros1_bridge LD_LIBRARY_PATH=/home/matt/ros2_ws/install/ros2_msgs/lib:/home/matt/ros-humble-ros1-bridge/install/ros1_bridge/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/matt/ros2_ws/build/rob599_hw3/prefix_override:/home/matt/ros2_ws/install/rob599_hw3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/matt/ros2_ws/build/rob599_hw3/build --no-deps install_data

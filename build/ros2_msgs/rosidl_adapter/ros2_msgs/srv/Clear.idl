@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ros2_msgs/srv/Clear.srv
+// generated code does not contain a copyright notice
+
+
+module ros2_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "inputs")
+    struct Clear_Request {
+      boolean reset;
+    };
+    @verbatim (language="comment", text=
+      "outputs")
+    struct Clear_Response {
+      boolean done;
+    };
+  };
+};

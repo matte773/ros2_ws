@@ -1,0 +1,5 @@
+#inputs
+bool reset
+---
+#outputs
+bool done
